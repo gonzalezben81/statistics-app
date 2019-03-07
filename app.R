@@ -49,7 +49,7 @@ ui <- dashboardPage(skin = "blue",
                         
                       )),
                     dashboardBody(
-                      tags$head(includeScript("www/google-analytics.js")),
+                      # tags$head(includeScript("www/google-analytics.js")),
                       tabItems(
                         ##Tab Item One
                         tabItem(tabName = "file",
